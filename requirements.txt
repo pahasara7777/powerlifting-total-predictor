@@ -1,0 +1,4 @@
+streamlit>=1.30
+lightgbm>=4.0
+numpy
+pandas
