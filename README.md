@@ -23,7 +23,7 @@ streamlit run app.py
 ## Files
 - `app.py` UI and styling
 - `predictor.py` loads the models and makes predictions
-- `model/` trained models and training notebooks
+- `model/` trained models
 - `model_meta.json` metrics and category counts
 - `test_app.py` quick checks: `PYTHONPATH=. python test_app.py`
 
