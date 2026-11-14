@@ -1,6 +1,6 @@
 # Powerlifting Total Predictor
 
-Animated Streamlit web app with two LightGBM models trained on OpenPowerlifting (1974-2018):
+Clean, minimal Streamlit web app with two LightGBM models trained on OpenPowerlifting (1974-2018):
 
 | Tab | Model file | Input | Avg error on unseen lifters |
 |---|---|---|---|
@@ -21,7 +21,7 @@ streamlit run app.py
 2. Go to share.streamlit.io, sign in, click "Create app", choose the repo, main file `app.py`, Deploy.
 
 ## Files
-- `app.py` UI, styling and animations
+- `app.py` UI and styling
 - `predictor.py` loads the models and makes predictions
 - `model/` trained models and training notebooks
 - `model_meta.json` metrics and category counts
